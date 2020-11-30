@@ -1,0 +1,991 @@
+*, *::before, *::after   {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  h1 {
+    font-size: 35px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    text-align: center;
+  }  
+  h4 {
+    font-weight: normal;
+    padding-bottom: 20px;
+    margin: 0;
+    text-align: center;
+  }
+  main > div:first-child {
+    margin: auto;
+    position: relative;
+    height: 330px;
+    width: 500px;
+    background-image: url(https://i.imgur.com/3G217j4.png);  
+    background-size: 200px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+  a:focus {
+    outline: 1px solid royalblue;
+  }
+  #English {
+    position: absolute;
+    display: block;
+    right: 60%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+     }
+  #Espanol {
+    position: absolute;
+    display: block;
+    right: 70%;
+    top: 20%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }  
+  #Deutsch {
+    position: absolute;
+    display: block;
+    right: 72%;
+    top: 40%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: royalblue;
+  }   
+  #Italiano {
+    position: absolute;
+    display: block;
+    right: 70%;
+    top: 60%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }    
+  #Portugues {
+    position: absolute;
+    display: block;
+    right: 60%;
+    top: 80%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: royalblue;
+  }    
+  #Russian {
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 60%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }    
+  #Japanese {
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 70%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }    
+  #Francais {
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 72%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }
+  #Chinese {
+    position: absolute;
+    display: block;
+    top: 60%;
+    left: 70%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }
+  #Arabic {
+    position: absolute;
+    display: block;
+    top: 80%;
+    left: 60%;
+    width: 160px;
+    height: 50px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: royalblue;
+  }
+  span {
+    font-size: 15px;
+    color: gray;
+    font-weight: normal;
+  }
+  b:hover {
+    text-decoration: underline;
+  }
+  body {
+    margin-top: 50px;
+  }
+  .search-box {
+    margin: auto;
+    padding-top: 10px;
+    position: relative;
+    width: 440px;
+    height: 43px;
+  }
+  #search-text {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    padding-left: 12px;
+    width: 88%;
+    height: 43px;
+    border: 1px solid #A1A4A7;
+    border-radius: 2px;
+    font-size: 18px;
+  }
+  #search-text:hover {
+    border-color: #717579;
+    transition: 0.3s;
+    cursor: text;
+  }
+  #search-text:focus {
+    outline: 2px solid royalblue;
+    outline-offset: -2px;
+    transition: 0s;
+  }
+  #search-button {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    width: 13%;
+    margin-left: 382px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+    font-size: 8px;
+    padding-bottom: 3px;
+  }
+  #search-button:hover {
+    background-color: #4A8DDC;
+    border-color: #4A8DDC;
+    cursor: pointer;
+  }
+  #search-button:focus {
+    outline: 1px solid white;
+    outline-offset: -4px;
+    transition: 0.05s;
+  }
+  #search-button:active {
+    background-color: #1C3E67;
+  }
+  .fa-search {
+    color: white;
+  }
+  #lang-list {
+    position: absolute;
+    width: 50px;
+    color: #6C7176;
+    height: 23px;
+    margin: 10px;
+    margin-left: 320px;
+    border-color: transparent;
+  }
+  #lang-list:hover {
+    background-color: #F6F8FA;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  #lang-list:focus {
+    outline: 1px solid royalblue;
+  }
+  .lang-choice-box {
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 37px;
+  }
+  #lang-choice {
+    margin: auto;
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 0;
+    width: 300px;
+    height: 37px;
+    border: 1px solid #A1A4A7;
+    background-color: #F6F8FA;
+    border-radius: 2px;
+  }
+  #lang-choice:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  #lang-choice:focus {
+    outline: 2px solid royalblue;
+    outline-offset: -2px;
+  }
+  span.emoji {
+    font-size: 17px;
+    float: left;
+    margin-left: 13px;
+    color: royalblue;
+  }
+  span.lang-choice-inner-text {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 40px;
+    font-size: 12.5px;
+    font-weight: 800;
+    color: royalblue;
+  }
+  span.lang-choice-arrow {
+    display: flex;
+    float: right;
+    margin-top: -18px;
+    margin-right: 9px;
+    font-size: 12.5px;
+    font-weight: 900;
+    color: royalblue;
+  }
+  .hr {
+    margin: auto;
+    position: relative;
+    width: 100px;
+  }
+  #first-hr {
+    margin-top: 12px;
+    margin-left: -175px;
+    width: 60px;
+    height: 1px;
+    border-width: 0;
+    background-color: #CBCFD4;
+  }
+  #second-hr {
+    margin-top: -9px;
+    margin-left: 215px;
+    width: 60px;
+    height: 1px;
+    border-width: 0;
+    background-color: #CBCFD4;
+  }
+  #main-hr {
+    margin: 20px;
+    height: 1px;
+    border-width: 0;
+    background-color: #CBCFD4;
+    margin-top: 10px;
+    margin-bottom: 3px;
+  }
+  .footer {
+    display: block;
+    position: relative;
+    padding: 50px 15px 15px 15px;
+    width: 100%;
+    height: 420px;
+  }
+  .wikimedia-block {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 35%;
+    height: 57px;
+    margin: 0 0 33px;
+  }
+  #wikimedia-content-sizing {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 350px;
+    height: 100%;
+    margin: auto;
+  }
+  #wikimedia-actual-content {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0 20px 0 60px;
+    height: 100%;
+    font-family: "Times New Roman", serif, sans-serif;
+    color: #525252;
+    font-size: 15px;
+    background: url(https://i.imgur.com/Qjo4ahc.png);
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+  }
+  #wikimedia-actual-content > b > a {
+    color: royalblue;
+  }
+  #wikimedia-actual-content > b > a:focus {
+    outline: 1px solid royalblue;
+  }
+  .wiki-apps-block {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    float: left;
+    width: 35%;
+    top: 40%;
+    margin: 0 0 33px;
+  }
+  #wiki-apps-content-sizing {
+    box-sizing: border-box;
+    position: relative;
+    max-width: 350px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+  #wiki-apps-actual-content {
+    box-sizing: border-box;
+    position: relative;
+    padding: 8px 20px 8px 60px;
+    height: 100%;
+    font-family: "Times New Roman", serif, sans-serif;
+    color: #525252;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: #EAEAEA;
+    background-image: url(https://i.imgur.com/RqHNaed.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  #wiki-apps-actual-content > p{
+    margin: 10px 0;
+  }
+  strong > b > a {
+    color: royalblue;
+  }
+  strong > b > a:focus {
+    outline: 1px solid royalblue;
+  }
+  .download-apps {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .android {
+    display: block;
+  }
+  .iphone {
+    display: block;
+  }
+  .other-wiki-links {      
+    float: right;
+    width: 64%;
+    height: 100%;
+  }
+  #wiki-link1 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link1-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/bp6a9PF.png);
+    background-repeat: no-repeat;
+    background-position: auto;
+  }
+  #link1-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link2 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link2-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/zJ2z2tf.png);
+    background-repeat: no-repeat;
+    background-position: 10px 0;
+  }
+  #link2-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link3 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link3-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/0Rx0yno.png);
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+  }
+  #link3-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link4 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link4-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/329AEo0.png);
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+  }
+  #link4-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link5 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link5-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/mLvpe0K.png);
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+  }
+  #link5-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link6 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link6-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/FaBDQM1.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  #link6-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link7 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link7-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/lL3oMNR.png);
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+  }
+  #link7-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link8 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link8-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/eZ9VyZO.png);
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+  }
+  #link8-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link9 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link9-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/S1MN89u.png);
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+  }
+  #link9-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link10 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link10-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/jUkclo4.png);
+    background-repeat: no-repeat;
+    background-position: 10px 0;
+  }
+  #link10-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link11 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link11-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/Ik3WZFu.png);
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+  }
+  #link11-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  #wiki-link12 {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 95px;
+  }
+  #wiki-link12-actual-link {
+    position: absolute;
+    padding: 0 0 0 60px;
+    width: 100%;
+    height: 50px;
+    line-height: 20px;
+    background-image: url(https://i.imgur.com/rLJYm85.png);
+    background-repeat: no-repeat;
+    background-position: 7px 0;
+  }
+  #link12-text {
+    position: relative;
+    max-width: 100%;
+    float: left;
+    color: #525252;
+  }
+  .other-wiki-links p:first-child {
+    color: royalblue;
+  }
+  .other-wiki-links p:nth-child(even) {
+    font-size: 14px;
+  }
+  div > p {
+    margin: 0;
+  }
+  .license {
+    margin: 0;
+    padding: 0 0 30px 0;
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    color: #525252;
+    text-align: center;
+    list-style: none;
+  }
+  .license a {
+    color: royalblue;
+    text-decoration: none;
+  }
+  .license a:hover {
+    text-decoration: underline;
+  }
+  .license a:focus {
+    outline: 1px solid royalblue;
+  }
+  @media only screen and (max-width: 800px) {
+    .footer {
+      padding: 15px;
+      width: 100%;
+      height: 670px;
+    }
+    .wikimedia-block {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin: 0 0 25px;
+    padding: 0;
+  }
+  #wikimedia-content-sizing {
+    position: relative;
+    padding: 50px 0 0 0;
+    margin: 0;
+    max-width: 100%;
+    height: 120px;
+    background: url(https://i.imgur.com/Qjo4ahc.png);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+  }
+    #wikimedia-actual-content {
+    position: relative;
+    padding: 0 0 0 0;
+    font-family: "Times New Roman", serif, sans-serif;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    background: none;
+    color: #525252;
+    font-size: 15px;
+  }
+   .wiki-apps-block {
+    display: block; 
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 68%;
+  }
+  #wiki-apps-content-sizing {
+    max-width: 100%;
+  }
+  #wiki-apps-actual-content {
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    padding: 20px 0;
+    height: 100%;
+    text-align: center;
+    font-family: "Times New Roman", serif, sans-serif;
+    color: #525252;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #EAEAEA;
+    background-image: url(https://i.imgur.com/RqHNaed.png);
+    background-size: 30px 30px;
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+  }
+     .other-wiki-links {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    top: -30%;
+  }
+    #wiki-apps-actual-content p {
+      padding: 35px 0 0 0;
+  }
+    #wiki-apps-actual-content ul {
+    position: relative;
+    max-width: 100%;
+    list-style: none;
+    width: 250px;
+    margin: auto;
+    padding: 30px 0 0 0;
+  }
+    .license {
+      padding: 0 10px;
+      margin-bottom: 150px;
+    }
+ }
+  @media only screen and (max-width: 520px) {
+    h1 {
+      font-size: 22px;
+    }
+    h4 {
+      font-size: 14px;
+      width: 100%;
+    }
+    main > div:first-child {
+      width: 0;
+    }
+    #English {
+    width: 125px;
+    height: 50px;
+    }
+    #Espanol {
+    width: 125px;
+    height: 50px;
+    }
+    #Deutsch {
+    width: 125px;
+    height: 50px;
+    }
+    #Italiano {
+      width: 125px;
+    }
+    #Portugues {
+      width: 125px;
+    }
+    #Russian {
+      width: 125px;
+    }
+    #Japanese {
+      width: 125px;
+    }
+    #Francais {
+      width: 125px;
+    }
+    #Chinese {
+      width: 125px;
+    }
+    #Arabic {
+      width: 125px;
+    }
+    b {
+      font-size: 15px;
+    }
+    span {
+      font-size: 13px;
+    }
+    .search-box {
+      position: relative;
+      margin: 0 auto;
+      width: 250px;
+      padding-top: 0;
+    }
+  #search-text {
+    margin: 0 25px;
+    padding: 0;
+    padding-left: 5px;
+    width: 73%;
+    height: 32px;
+    font-size: 14px;
+    }
+    #search-button {
+    height: 32px;
+    width: 13%;
+    margin-left: 205px;
+    font-size: 6px;
+    }
+  #lang-list {
+    width: 43px;
+    height: 18px;
+    margin: 7px;
+    margin-left: 159px;
+    }
+    .lang-choice-box {
+    width: 187px;
+    height: 37px;
+    }
+  #lang-choice {
+    margin: auto;
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 0;
+    width: 200px;
+    height: 35px;
+    }
+  span.emoji {
+    font-size: 16px;
+    float: left;
+    margin: 3px -18px 0 8px;
+    color: royalblue;
+    }
+  span.lang-choice-inner-text {
+    display: flex;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 800;
+    color: royalblue;
+    }
+  span.lang-choice-arrow {
+    margin-top: -25px;
+    margin-right: 5px;
+    }
+    .hr {
+    margin: auto;
+    position: relative;
+    width: 50px;
+    }
+  #first-hr {
+    margin-top: -3px;
+    margin-left: -115px;
+    width: 0;
+    max-width: 100%;
+    }
+  #second-hr {
+    margin-top: -9px;
+    margin-left: 143px;
+    width: 0;
+    }
+    .other-wiki-links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 100%;
+    top: -30%;
+    }
+    .other-wiki-links p:nth-child(odd) {
+      font-size: 13px;
+    }
+    .other-wiki-links p:nth-child(even) {
+      font-size: 13px;
+    }
+  #wiki-link1 {
+    min-width: 50%;
+    }
+     #wiki-link2 {
+    min-width: 50%;
+    }
+     #wiki-link3 {
+    min-width: 50%;
+    }
+     #wiki-link4 {
+    min-width: 50%;
+    }
+     #wiki-link5 {
+    min-width: 50%;
+    }
+     #wiki-link6 {
+    min-width: 50%;
+    }
+     #wiki-link7 {
+    min-width: 50%;
+    }
+     #wiki-link8 {
+    min-width: 50%;
+    }
+     #wiki-link9 {
+    min-width: 50%;
+    }
+     #wiki-link10 {
+    min-width: 50%;
+    }
+     #wiki-link11 {
+    min-width: 50%;
+    }
+     #wiki-link12 {
+    min-width: 50%;
+    }
+    .wiki-apps-block {
+    top: 115%;
+    }
+  #wiki-apps-actual-content {
+    height: 100%;
+    }
+    strong > b > a {
+      padding: 0 7px;
+    }
+    strong > b > a > p {
+      padding: 0 7px;
+    }
+  ul.download-apps {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .license {
+      padding: 0 10px;
+      margin-top: 450px;
+      margin-bottom: 50px;
+    }
+  }
