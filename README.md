@@ -15,7 +15,3 @@ how to make them position and behave the way I want them to behave. Nevertheless
  an achievement to me and I regret no minute to sitting and just making this clone-page. Indeed it sometimes gets boring to this stuff but just when you really struggling to handle something. 
  
  As long as you keep on pushing - the rock is moving and you get the excitement back :) 
-
-
-
-# This code is free to use and share so if you are interested in front end designing - this piece of code is definitely for you!
